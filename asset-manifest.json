@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LockShop/static/css/main.85efb3f3.chunk.css",
-    "main.js": "/LockShop/static/js/main.8fc69054.chunk.js",
-    "main.js.map": "/LockShop/static/js/main.8fc69054.chunk.js.map",
+    "main.js": "/LockShop/static/js/main.0ff1d5b1.chunk.js",
+    "main.js.map": "/LockShop/static/js/main.0ff1d5b1.chunk.js.map",
     "runtime-main.js": "/LockShop/static/js/runtime-main.7ec2bdc1.js",
     "runtime-main.js.map": "/LockShop/static/js/runtime-main.7ec2bdc1.js.map",
     "static/css/2.94f610fb.chunk.css": "/LockShop/static/css/2.94f610fb.chunk.css",
@@ -74,6 +74,6 @@
     "static/css/2.94f610fb.chunk.css",
     "static/js/2.c7f7d170.chunk.js",
     "static/css/main.85efb3f3.chunk.css",
-    "static/js/main.8fc69054.chunk.js"
+    "static/js/main.0ff1d5b1.chunk.js"
   ]
 }
