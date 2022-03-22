@@ -1,0 +1,12 @@
+.installation-tag{
+    font-family: SFProText;
+    width: fit-content;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.installation-tag__image{
+    margin-right: 10px;
+}

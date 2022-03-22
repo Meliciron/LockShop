@@ -1,0 +1,40 @@
+.about-us__advantages-wrapper{
+    width: 100%;
+    background: #0D2436;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+
+.about-us__advantages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    height: 316px;
+}
+
+.about-us__advantages-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about-us__advantages-column-title{
+    font-family: SFProText;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 72px;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.about-us__advantages-column-description{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    line-height: 32px;
+    font-family: SFProText;
+}

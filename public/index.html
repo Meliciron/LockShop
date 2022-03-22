@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>Интернет магазин дверных замков</title>
+    <link rel="icon" href="img/fav/fnum1.png">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      let counter = 1;
+      let iconsAmount = 47;
+      let icons = document.querySelectorAll('link')
+      function animateFavicon(){
+        icons.forEach((item) => {
+          if(item.getAttribute('rel').indexOf('icon') >= 0){
+            item.setAttribute('href', 'img/fav/fnum' + counter + '.png');
+          }
+        });
+        counter++;
+        if (counter === iconsAmount){ counter = 1}
+      }
+      setInterval(animateFavicon, 80);
+    </script>
+  </body>
+</html>

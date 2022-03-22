@@ -1,0 +1,53 @@
+.product-reviews-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 96px;
+}
+
+.product-reviews__leave-review{
+    border: 1px solid #EAEAEA;
+    padding: 24px 22px;
+    height: fit-content;
+    max-width: 450px;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.product-reviews__leave-review-row{
+    margin-bottom: 22px;
+}
+
+.product-reviews__leave-review-row-title{
+    font-size: 14px;
+    line-height: 17px;
+    color: #161C24;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+
+.product-reviews__leave-review-row-input{
+    height: 48px;
+    max-width: 393px;
+    width: 100%;
+    outline: none;
+    padding: 12px 16px;
+    border: 1px solid #E4E7E9;
+}
+
+.product-reviews__leave-review-row-input::placeholder{
+    color: #ADADAD;
+}
+
+.product-reviews__leave-review-btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.product-reviews__leave-review-btn-wrapper .button{
+    width: 100%;
+}
+
+.product-reviews__leave-review-row-input.product-reviews__leave-review-row-input_textarea{
+    resize: none;
+}

@@ -1,0 +1,87 @@
+.cart-page__wrapper{
+    display: flex;
+    justify-content: center;
+    font-family: SFProDisplay;
+    padding: 0 25px;
+}
+
+.cart-page{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+}
+
+.cart-page__inner{
+    width: 100%;
+    min-height: 70vh;
+}
+
+.cart-page__title{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    font-family: SFProDisplay;
+    margin-top: 20px;
+}
+
+.cart-page__right-menu{
+    position: sticky;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 80px;
+    height: fit-content;
+}
+
+.cart-page__coupon-text-input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    margin-bottom: 15px;
+    font-family: SFProDisplay;
+    font-weight: 500;
+    letter-spacing: 0em;
+    font-size: 20px;
+    border:1px solid #4295E4;
+}
+
+.cart-page__coupon-button-input{
+    position: absolute;
+    right: 0;
+    border-radius: 0;
+    height: 40px;
+    background-color: #4295E4;
+    font-family: SFProText;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.cart-page__coupon-button-input:hover{
+    background-color:  #56A9F8;
+}
+
+.cart-page__coupon-button-input:active{
+    background-color: #2E81D0;
+}
+
+.cart-page__text-row{
+    margin-bottom: 15px;
+}
+
+.cart-page__text-row:first-child{
+    margin-bottom: 10px;
+}
+
+.cart-page__text-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-page__coupon-total-price{
+    font-weight: bold;
+}

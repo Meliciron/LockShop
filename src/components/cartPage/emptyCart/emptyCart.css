@@ -1,0 +1,12 @@
+.empty-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    padding: 8% 0;
+}
+
+.empty-cart__cart__text{
+    margin: 20px 0;
+}

@@ -1,0 +1,54 @@
+.wholesale__why-we{
+    background-color: #F2F8FF;
+    display: flex;
+    justify-content: center;
+    font-family: SFProText;
+}
+
+.wholesale__why-we-inner{
+    width: 1440px;
+    padding: 100px 0;
+}
+
+.wholesale__why-we-image{
+    width: 705px;
+    height: 560px;
+    margin-right: 170px;
+}
+
+.wholesale__why-we-main-content{
+    display: flex;
+}
+
+.wholesale__why-we-features-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wholesale__why-we-feature-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;  
+    margin-bottom: 5px;
+}
+
+.wholesale__why-we-feature-description{
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.wholesale__why-we-feature{
+    margin-bottom: 32px;
+    width: 450px;
+    position: relative;
+}
+
+.wholesale__why-we-feature-image{
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: -65px;
+    top: 20%;
+}

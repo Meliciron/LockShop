@@ -1,0 +1,37 @@
+.pochta-rossii__form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: fit-content;
+}
+
+.pochta-rossii__label-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.pochta-rossii__label-wrapper span{
+    display: block;
+    margin-bottom: 4px;
+}
+
+.pochta-rossii__label{
+    display: block;
+    width: 100%;
+}
+
+.pochta-rossii__text-input{
+    outline: none;
+    width: 100%;
+    height: 44px;
+    font-family: SFProDisplay;
+    font-size: 18px;
+    padding: 10px 19px;
+
+}
+
+.checkout-page__droping-area_hidden .pochta-rossii__form{
+    display: none;
+}

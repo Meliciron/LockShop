@@ -1,0 +1,15 @@
+.guarantees__title-wrapper{
+    margin-bottom: 16px;
+}
+
+.guarantees__text{
+    font-family: SFProText;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #161C24;   
+}
+
+.guarantees__marked-list-wrapper{
+    margin-top: 12px;
+}

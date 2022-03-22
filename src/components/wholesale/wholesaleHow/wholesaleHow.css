@@ -1,0 +1,63 @@
+.wholesale__how-we-work{
+    display: flex;
+    justify-content: center;
+    font-family: SFProText;
+    margin: 100px 0;
+}
+
+.wholesale__how-we-work-inner{
+    width: 1440px;
+}
+
+.wholesale__section-title{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 62px;
+    margin-bottom: 48px;
+}
+
+.wholesale__how-we-work-main-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wholesale__how-we-work-card{
+    position: relative;
+}
+
+.wholesale__how-we-work-card::before{
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 48px;
+    height: 48px;
+    
+}
+
+.how-first::before{
+    background-image: url("../../../assets/img/howbg1.png") ;
+}
+
+.how-second::before{
+    background-image: url("../../../assets/img/howbg2.png") ;
+}
+
+.how-third::before{
+    background-image: url("../../../assets/img/howbg3.png") ;
+}
+
+
+.wholesale__how-we-work-card-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 12px 0;
+}
+
+.wholesale__how-we-work-card-description{
+    font-size: 14px;
+    line-height: 24px;
+    color: #454F5B;
+    max-width: 393px;
+}

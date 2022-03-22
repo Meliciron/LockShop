@@ -1,0 +1,24 @@
+.cost-section{
+    display: flex;
+    align-items: center;
+}
+
+.cost-section__new-cost{
+    margin-right: 12px;
+    font-family: SFProText;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.cost-section__old-cost{
+    color: #a4a4a4;
+    font-family: SFProText;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-decoration: line-through;
+}

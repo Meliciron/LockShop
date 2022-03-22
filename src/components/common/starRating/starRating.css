@@ -1,0 +1,14 @@
+.star-rating{
+    width: fit-content;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.star-rating__star-image{
+    margin-right: 6px;
+}
+
+.star-rating__star-image:last-child{
+    margin-right: 0;
+}
+

@@ -1,0 +1,15 @@
+.marked-list__dot-img{
+    margin-right: 12px;
+    margin-top: 8px;
+}
+
+.marked-list__item{
+    margin-bottom: 8px;
+    font-family: SFProText;
+    font-size: 14px;
+    line-height: 24px;
+    color: #454F5B;
+    max-width: 796px;
+    display: flex;
+    align-items: flex-start;
+}

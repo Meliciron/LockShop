@@ -1,0 +1,60 @@
+.delivery-card{
+    font-family: SFProText;
+}
+
+.delivery-card__img-wrapper{
+    position: relative;
+    width: fit-content;
+    margin-bottom: 16px;
+}
+
+.delivery-card__main-img{
+    width: 393px;
+    height: 212px;
+}
+
+.delivery-card__small-img{
+    width: 130px;
+    height: 53px;
+    position: absolute;
+    right: 16px;
+    top: -26px;
+}
+
+.delivery-card__title-wrapper{
+    width: fit-content;
+    border-left: 3px solid #4295E4;
+    padding-left: 16px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.delivery-card__title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #161C24;
+}
+
+.delivery-card__mark-img{
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+}
+
+.delivery-card__text{
+    font-size: 14px;
+    line-height: 20px;
+    color: #454F5B;
+}
+
+.delivery-card__text-row{
+    margin-bottom: 8px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.delivery-card__text-row:last-child{
+    margin-bottom: 0;
+}

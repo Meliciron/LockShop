@@ -1,0 +1,46 @@
+.payment{
+    font-family: SFProText;
+}
+
+.payment__title-wrapper{
+    margin-bottom: 24px;
+}
+
+.payment__subtitle-row-img{
+    margin-right: 12px;
+    width: 25px;
+    height: 25px;
+}
+
+.payment__subtitle{
+    
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161C24;
+}
+
+.payment__subtitle-row{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+
+.payment__subtitle-row{
+    margin-bottom: 12px;
+}
+
+.payment__paragraph{
+    font-size: 14px;
+    line-height: 24px;
+    color: #454F5B;
+    max-width: 816px;
+}
+
+.payment__paragraph-wrapper{
+    margin-bottom: 24px;
+}
+
+.payment__paragraph-wrapper:last-child{
+    margin-bottom: 0;
+}

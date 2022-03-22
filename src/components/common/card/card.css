@@ -1,0 +1,77 @@
+.card{
+    font-family: SFProText;
+    width: 288px;
+    height: 453px;
+    position: relative;
+    background-color: #f7f7f7;
+    color: #454F5B;
+    cursor: pointer;
+}
+
+.card__image-wrapper{
+    background-color: #f7f7f7;
+}
+
+.card__presence{
+    width: fit-content;
+    height: 22px;
+    position: absolute;
+    top: 17px;
+    left: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.card__presence-image{
+    margin-right: 8px;
+}
+
+.card__sale{
+    position: absolute;
+    padding: 8px 5px;
+    top: 12px;
+    right: 12px;
+    width: 51px;
+    height: 30px;
+    background-color: #ffffff;
+}
+
+.card__image{
+    width: 288px;
+    height: 320px;
+    background-color: #ffffff;
+}
+
+.card__bottom-section{
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    height: 133px;
+    background-color: #ffffff;
+    border: 2px solid #f7f7f7;
+    border-top: none;
+}
+
+.card__reviews-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.card__title{
+    margin-top: 6px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.card__price{
+    position: absolute;
+    bottom: 10px;
+    left: 12px;
+}
+
+.card__cart-icon{
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    z-index: 9999;
+}

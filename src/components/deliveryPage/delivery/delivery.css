@@ -1,0 +1,30 @@
+.delivery__navigation-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.delivery__navigation-wrapper .catalogue-full-page__nav-path{
+    width: 100%;
+    max-width: 1440px;
+}
+
+.delivery__delivery-title-wrapper{
+    margin-bottom: 50px;
+}
+
+.delivery__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.delivery{
+    width: 100%;
+    max-width: 1440px;
+}
+
+.delivery__cards-row{
+    display: flex;
+    justify-content: space-between;
+}

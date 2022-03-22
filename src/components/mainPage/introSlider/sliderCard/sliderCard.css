@@ -1,0 +1,53 @@
+.slider-card{
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+.slider-card__image{
+    width: 441px;
+    height: 471px;
+    margin-right: 106px;
+}
+
+.slider-card__title-wrapper{
+    margin-bottom: 20px;
+}
+
+.slider-card__title{
+    font-family: SFProText;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 62px;
+}
+
+.slider-card__description-wrapper{
+    width: 287px;
+}
+
+.slider-card__description{
+    font-family: SFProText;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.slider-card__description:last-child{
+    margin-bottom: 32px;
+}
+
+.slider-card__cost-title{
+    font-family: SFProText;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 4px;
+}
+
+.slider-card__cost-value-wrapper{
+    margin-bottom: 16px;
+}

@@ -1,0 +1,11 @@
+.mySwiper2{
+    height: 513px !important;
+}
+.swiper-slide.swiper-slide-visible{
+    width: 142px;
+    height: 133px;
+}
+
+.swiper-slider__wrapepr{
+    margin-right: 12px;
+}

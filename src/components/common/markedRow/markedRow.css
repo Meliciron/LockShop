@@ -1,0 +1,13 @@
+.marked-row{
+    display: flex;
+    font-family: SFProText;
+    font-size: 16px;
+    line-height: 26px;
+    color: #161C24;
+}
+
+.marked-row__img{
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+}

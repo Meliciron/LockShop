@@ -1,0 +1,30 @@
+.delivery-page__section-title{
+    font-family: SFProText;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #161C24;
+}
+
+.delivery-page__section-wrapper{
+    padding-bottom:40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #C4CDD5;
+}
+
+.delivery-page__section-wrapper:last-child{
+    border: none;
+    margin-bottom: 100px;
+    padding: 0;
+}
+
+.delivery-page__wrapeper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.delivery-page{
+    width: 100%;
+    max-width: 1440px;
+}

@@ -1,0 +1,43 @@
+.project-card{
+    display: flex;
+    align-items: center;
+}
+
+.project-card__img-wrapper{
+    margin-right: 40px;
+}
+
+.project-card__img{
+    width: 511px;
+    height: 328px;
+}
+
+.project-card__features-list li{
+    max-width: 533px;
+    margin-bottom: 16px;
+}
+
+.project-card__logo-wrapper{
+    margin-bottom: 32px;
+    width: 164px;
+    height: 40px;
+}
+
+.project-card__title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 15px;
+    color: #161C24;
+}
+
+.project-card__budget{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #161C24;
+}
+
+.project-card__budget_blue{
+    color: #4295E4;
+}

@@ -1,0 +1,233 @@
+.card-details{
+    display: flex;
+    justify-content: center;
+    font-family: SFProText;
+}
+
+.card-details__inner{
+    max-width: 1440px;
+    width: 100%;
+}
+
+.card-details__top-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card-details__top-section-images-wrapper-big-image{
+    width: 604px;
+    height: 513px;
+    background-color: cadetblue;
+}
+
+.card-details__top-section-images-wrapper-small-iamges-wrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-details__top-section-images-wrapper-small-image{
+    width: 142px;
+    height: 133px;
+    background-color: cadetblue;
+    margin-right: 12px;
+}
+
+.card-details__top-section-top-row-art{
+    font-size: 16px;
+    line-height: 21px;
+    color: #454F5B;
+    font-family: SFProText;
+    margin-right: 14px;
+}
+
+.card-details__top-section-top-row{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 16px;
+}
+
+.card-details__title{
+    font-family: SFProText;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;  
+    color: #161C24;
+    margin-bottom: 12px;
+}
+
+.card-details__installation-for{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #161C24;
+    margin-bottom: 8px;
+}
+
+.card-details__installation-for-tags-wrapper{
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 24px;
+}
+
+.card-details__cost-section-wrapeer{
+    margin-bottom: 16px;
+}
+
+.card-details__top-section-images-wrapper{
+    margin-right: 30px;
+}
+
+.card-details__top-section-big-image{
+    display: block;
+    width: 540px;
+    height: 513px;
+}
+
+.card-details__top-section-images-wrapper-big-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-details__top-section-small-image{
+    width: 142px;
+    height: 133px;
+}
+
+.card-details__buy-button-wrapper{
+    margin-bottom: 32px;
+}
+
+.card-details__complectation-select{
+    width: 288px;
+    height: 40px;
+    padding: 8px 16px;
+    outline: none;
+    margin-right: 30px;
+}
+
+.card-details__row-wrapper{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.card-details__available-color{
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.card-details__available-color:last-child{
+    margin-right: 0;
+}
+
+.card-details__available-colors-wrapper{
+    display: flex;
+}
+
+.card-details__bottom-section-title-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.card-details__bottom-content-features-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+    margin-bottom: 96px;
+}
+
+.card-details__bottom-content-feature-row{
+    display: flex;
+    align-items: center;
+    height: 58px;
+}
+
+.card-details__bottom-content-feature-row{
+    background-color: white;
+}
+
+.card-details__bottom-content-feature-row:nth-child(4n+1),
+.card-details__bottom-content-feature-row:nth-child(4n+2){
+    background-color: #fafafa;
+}
+
+.card-details__bottom-content-feature-row-title,
+.card-details__bottom-content-feature-row-value{
+    width: 50%;
+}
+
+.card-details__bottom-content-feature-row-title{
+    font-weight: 600;
+    padding-left: 12px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #181818;
+}
+
+.card-details__bottom-content-feature-row-value{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.card-details__blog-section-wrapper{
+    margin-bottom: 100px;
+}
+
+.card-details__top-section-product-slider-wrapper{
+    max-width: 605px;
+}
+
+.card-details__top-section-product-slider-wrapper{
+    margin-right: 30px;
+}
+
+.card-details__description-wrapper{
+    margin-bottom: 96px;
+    max-width: 711px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: SFProText;
+}
+
+.card-details__description-subtitle{
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #161C24;
+}
+
+.card-details__description-advantages-item-wrapper{
+    margin-bottom: 8px;
+}
+
+.card-details__add-to-cart-btn.card-details__add-to-cart-btn_active{
+    background-color: rgba(91, 214, 33, 0.8);
+}
+
+.card-details__add-to-cart-btn{
+    width: 220px;
+    height: 50px;
+    background-color: #4295E4;
+    font-family: SFProDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: white;
+    padding: 12px 0;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}

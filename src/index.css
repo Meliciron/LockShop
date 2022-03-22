@@ -1,0 +1,16 @@
+@font-face {
+    font-family: SFProDisplay ;
+    src: local("SF-UI-Display-Regular"),
+         url(./fonts/sf_pro_text/SF-UI-Display-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: SFProText;
+    src: url(./fonts/sf_pro_text/SF-UI-Text-Regular.ttf);
+    font-weight: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}

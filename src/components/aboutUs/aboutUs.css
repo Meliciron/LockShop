@@ -1,0 +1,14 @@
+.about-us__wrapper .catalogue-full-page__nav-path{
+    margin-bottom: 70px;
+}
+
+.about-us__navigation-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-us__navigation-wrapper .catalogue-full-page__nav-path{
+    width: 100%;
+    max-width: 1440px;
+}

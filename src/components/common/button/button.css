@@ -1,0 +1,30 @@
+.button{
+    width: 220px;
+    height: 50px;
+    background-color: #4295E4;
+    font-family: SFProDisplay;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: white;
+    padding: 12px 0;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.button:hover{
+    background-color:  #56A9F8;
+}
+
+.button:active{
+    background-color: #2E81D0;
+}
+
+.button__text{
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}

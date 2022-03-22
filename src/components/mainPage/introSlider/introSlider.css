@@ -1,0 +1,125 @@
+.intro-slider{
+    height: 774px;
+    padding: 0px 2vw 0 2vw;
+    background-color: #fafafa;
+}
+
+.intro-slider .swiper-button-disabled{
+    opacity: 0.5;
+    cursor: default;
+}
+
+.intro-slider .swiper-button-disabled img{
+    cursor: default;
+}
+
+.intro-slider .swiper{
+    height: 774px;
+}
+
+.intro-slider__inner{
+    position: relative;
+    max-width: 1440px;
+    max-height: 774px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-slider__control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 48px;
+}
+
+.intro-slider__control-arrow{
+    width: 32px;
+    height: 32px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.intro-slider__control-arrow:last-child{
+    transform: rotate(180deg);
+    margin-right: 0;
+    margin-left: 24px;
+}
+
+.intro-slider__control-dot{
+    cursor: pointer;
+}
+
+.slider-intro__control-dot-wrapper{
+    margin: 0 24px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ADD7FF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.intro-slider .swiper-slide-item-container{
+    height: 774px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-slider .swiper-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 27px;
+}
+
+.swiper-pagination-bullet{
+    background-color: #ADD7FF !important;
+    opacity: 1 !important;
+    width: 12px !important;
+    height: 12px !important;
+    margin-right: 20px !important;
+}
+
+.swiper-pagination-bullet-active{
+    position: relative;
+    background-color: #4295E4 !important;
+    width: 14px !important;
+    height: 14px !important;
+}
+
+.swiper-pagination-bullet-active{
+    width: 20px;
+    height: 20px;
+}
+
+.intro-slider .swiper-slider__nav-button{
+    width: 32px;
+    height: 32px;
+    margin-right: 70px;
+    margin-left: 50px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 20;
+}
+
+
+.intro-slider .swiper-slider__nav-next img{
+    transform: rotate(180deg);
+}
+
+.intro-slider .swiper-navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.swiper-slider__nav-button{
+    width: fit-content;
+    margin: 0px 300px;
+}

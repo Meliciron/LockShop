@@ -1,0 +1,66 @@
+.back-call{
+    background-color: #F2F8FF;
+    padding-top: 64px;
+    padding-bottom: 56px;
+}
+
+.back-call__title{
+    font-family: SFProText;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 62px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.back-call__description{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 518px;
+    text-align: center;
+    font-family: SFProText;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.back-call__inputs-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.back-call__input_valid{
+    width: 240px;
+    height: 50px;
+    outline: none;
+    margin-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    font-family: SFProText;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.back-call__input_invalid{
+    border-color: #ee5252;
+    box-shadow: 0 0 3px 3px rgba(241, 103, 103, 0.4);
+    width: 240px;
+    height: 50px;
+    outline: none;
+    margin-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    font-family: SFProText;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}

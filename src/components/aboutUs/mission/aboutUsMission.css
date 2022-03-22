@@ -1,0 +1,81 @@
+.about-us-mission__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 133px;
+    font-family: SFProText;
+}
+
+.about-us-mission{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us-mission__subtitle-wrapper{
+    width: fit-content;
+    border-bottom: 2px solid #4295E4;
+    padding-bottom: 3px;
+    margin-bottom: 26px;
+}
+
+.about-us-mission__subtitle{
+    font-size: 18px;
+    line-height: 38px; 
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #4295E4;
+}
+
+.about-us-mission__quotations-wrapper{
+    margin-bottom: 13px;
+}
+
+.about-us-mission__quotations-wrapper img{
+    width: 32px;
+    height: 28px;
+}
+
+.about-us-mission__paragraph{
+    max-width: 510px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #454F5B;
+}
+
+.about-us-mission__images-wrapper{
+    position: relative;
+    margin-right: 30px;
+}
+
+.about-us-mission__decoration{
+    position: absolute;
+}
+
+.about-us-mission__decoration-small-image{
+    width: 202px;
+    height: 280px;
+    bottom: -33px;
+    left: -30px;
+}
+
+.about-us-mission__decoration-upper-dots{
+    width: 94.05px;
+    height: 112px;
+    top: -30px;
+    left: -30px;
+    z-index: -1;
+}
+
+.about-us-mission__decoration-lower-dots{
+    width: 94.05px;
+    height: 112px;
+    bottom: -33px;
+    right: -30px;
+    z-index: -1;
+}

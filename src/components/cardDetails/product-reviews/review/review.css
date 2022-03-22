@@ -1,0 +1,68 @@
+.review{
+    display: flex;
+    flex-direction: column;
+    font-family: SFProDisplay;
+    max-width: 817px;
+    width: 100%;
+    color: #161C24;
+    border: 1px solid #EAEAEA;
+    margin-bottom: 16px;
+}
+
+.review:last-child{
+    margin-bottom: 0;
+}
+
+.review__top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 16px 24px;
+}
+
+.review__bottom-section{
+    padding: 16px 24px 24px 24px;
+}
+
+.review__top-section-userName{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.review__top-section-date{
+    color: #454F5B;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.review__text{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.review__text{
+    margin-bottom: 24px;
+}
+
+.review__activities{
+    display: flex;
+    color: #454F5B;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.review__activities-answer{
+    margin-right: 24px;
+}
+
+.review__activities-img{
+    width: 10px;
+    height: 10px;
+    margin-right: 9px;
+}
+
+.review__activities-answer,
+.review__activities-comments{
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.input{
+    outline: none;
+    font-family: SFProText;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    min-width: 193px;
+    height: 44px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.input_valid{
+    border: 1px solid #EBECEC;
+}
+
+.input_invalid{
+    border-color: #ee5252;
+    box-shadow: 0 0 3px 3px rgba(241, 103, 103, 0.4);
+}
+
+
+.input::placeholder{
+    color: #adadad;
+}

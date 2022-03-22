@@ -1,0 +1,32 @@
+
+.tabs__titles-wrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.tabs__title{
+    margin-right: 62px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161C24;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+.tabs__title:last-child{
+    margin-right: 0;
+}
+
+.tabs__title_active{
+    border-bottom: 3px solid #4295E4;
+}
+
+.tabs__content{
+    display: none;
+}
+
+.tabs__content_active{
+    display: block;
+}
